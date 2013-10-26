@@ -89,6 +89,12 @@
         [library writeVideoAtPathToSavedPhotosAlbum:outputURL
                                     completionBlock:^(NSURL *assetURL, NSError *error) {
                                         NSLog(@"Saved");
+                                        dispatch_async(dispatch_get_main_queue(), ^{
+                                            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Exported"
+                                                                                            message:@"Saved to Camera Roll" delegate:nil
+                                                                                  cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+                                            [alert show];
+                                        });
                                     }];
     }];
 }
