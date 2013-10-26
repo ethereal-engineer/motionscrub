@@ -21,6 +21,7 @@
 		66FCA6C3181B3C3100CFCD7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCA6A5181B3C3100CFCD7F /* UIKit.framework */; };
 		66FCA6CB181B3C3100CFCD7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66FCA6C9181B3C3100CFCD7F /* InfoPlist.strings */; };
 		66FCA6CD181B3C3100CFCD7F /* MotionScrubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCA6CC181B3C3100CFCD7F /* MotionScrubTests.m */; };
+		66FCA6DB181B47C200CFCD7F /* MSPresetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCA6DA181B47C200CFCD7F /* MSPresetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		66FCA6C8181B3C3100CFCD7F /* MotionScrubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionScrubTests-Info.plist"; sourceTree = "<group>"; };
 		66FCA6CA181B3C3100CFCD7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66FCA6CC181B3C3100CFCD7F /* MotionScrubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionScrubTests.m; sourceTree = "<group>"; };
+		66FCA6D9181B47C200CFCD7F /* MSPresetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPresetViewController.h; sourceTree = "<group>"; };
+		66FCA6DA181B47C200CFCD7F /* MSPresetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPresetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				66FCA6B3181B3C3100CFCD7F /* Main.storyboard */,
 				66FCA6B6181B3C3100CFCD7F /* MSViewController.h */,
 				66FCA6B7181B3C3100CFCD7F /* MSViewController.m */,
+				66FCA6D9181B47C200CFCD7F /* MSPresetViewController.h */,
+				66FCA6DA181B47C200CFCD7F /* MSPresetViewController.m */,
 				66FCA6B9181B3C3100CFCD7F /* Images.xcassets */,
 				66FCA6A8181B3C3100CFCD7F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66FCA6B2181B3C3100CFCD7F /* MSAppDelegate.m in Sources */,
+				66FCA6DB181B47C200CFCD7F /* MSPresetViewController.m in Sources */,
 				66FCA6B8181B3C3100CFCD7F /* MSViewController.m in Sources */,
 				66FCA6AE181B3C3100CFCD7F /* main.m in Sources */,
 			);
